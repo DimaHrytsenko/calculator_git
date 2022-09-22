@@ -1,16 +1,66 @@
-# This is a sample Python script.
-
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+from math import *
 
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+def total_two_numbers(a, b):
+    return print(f'\nРезультат: {a + b}\n')
 
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
+def subtraction_two_numbers(a, b):
+    return print(f'\nРезультат: {a - b}\n')
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+
+def product_two_numbers(a, b):
+    return print(f'\nРезультат: {a * b}\n')
+
+
+def devision_two_numbers(a, b):
+    if b != 0:
+        return print(f'\nРезультат: {a / b}\n')
+    else:
+        return print('\nIncorrect divisior\n')
+
+
+def power_two_numbers(a, b):
+    if a != 0:
+        return print(f'\nРезультат: {a ** b}\n')
+    else:
+        return print('\nIncorrect input\n')
+
+
+def log_(a, b):
+    return print(f'\nРезультат: {log(a, b)}\n')
+
+
+def opposite_number(a):
+    if a != 0:
+        return print(f'\nРезультат: {1 / a}\n')
+    else:
+        return print('\nIncorrect number\n')
+
+
+def absolute_number(a):
+    return print(f'\nРезультат: {abs(a)}\n')
+
+
+def log_ten(a):
+    return print(f'\nРезультат: {log(a, 10)}\n')
+
+
+def log_exp(a):
+    return print(f'\nРезультат: {log(a)}\n')
+
+
+def factorial_(a):
+    return print(f'\nРезультат: {factorial(a)}\n')
+
+
+def sqrt_(a):
+    return print(f'\nРезультат: {a ** 0.5}\n')
+
+
+def cuberoot(a):
+    return print(f'\nРезультат: {a ** (1 / 3)}\n')
+
+
+one_num = '1/', 'abs', 'log_10', 'log_e', 'a!', 'sqrt', 'cbrt'
+two_nums = '+', '-', '*', '/', '**', 'log'
